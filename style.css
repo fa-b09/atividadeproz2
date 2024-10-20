@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(141, 141, 165)
+}
+header{
+    height: unset;
+    position: relative;
+}
+main{
+    height: unset;
+    position: relative;
+}
+img{
+    margin-left: 80px;
+}
+p{
+    text-align: center;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+    border-width: 20px;
+    border-top: 10px;
+    border-left: 30px;
+    
+}
+h1{
+    text-align: center;
+    font-size:80px;
+    }
+h2{
+    text-align: center;
+    font-size: 40px 
+}    
+footer{
+    text-align: center;
+}
