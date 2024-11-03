@@ -13,13 +13,15 @@ img{
     margin-left: 80px;
 }
 p{
-    text-align: center;
+    
     font-weight: 100;
-    font-style: normal;
+    font-style: times;
     font-size: 30px;
     border-width: 20px;
     border-top: 10px;
     border-left: 30px;
+    text-align: left;
+    margin-left: 20px;
     
 }
 h1{
@@ -31,5 +33,46 @@ h2{
     font-size: 40px 
 }    
 footer{
+    display: flex;
+    justify-content: center;
+}
+.saudação{
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+    position: inherit ;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rodape{
+    background-color: rgb(177, 156, 196);
+    display: flex;
+    width: 100%;
+    margin-top: 1px;
+    margin-left: 20px;
+    font-size: 30px;
+    justify-content: left;
+    
+
+}
+.rodape1{
+    display: block;
+    justify-content: rigth;
+    width: 100%;
+    background-color: rgb(143, 167, 167);
+    
+}
+.coprygth{
     text-align: center;
+}
+li{
+    list-style-type:none;
 }
